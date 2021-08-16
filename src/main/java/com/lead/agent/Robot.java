@@ -25,10 +25,6 @@ public class Robot {
     private static Field levelint = null;
     private static String name = null;
 
-
-    private static final String NOTICE_DTO = "{\"msgtype\": \"markdown\",\"markdown\": {\"content\": \"运行异常通知:\n项目:%s\n信息:%s\n <font size=10>\n %s </font>\n \n\"}}";
-
-
     public static void preLog(Object localFQCN, Object marker, Object level, Object msg, Object params, Object t) {
 
         try {
